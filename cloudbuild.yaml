@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'australia-southeast2-docker.pkg.dev/sit323-23t1-aghilesh-a-6af93e7/quickstart-docker-repo/quickstart-image:tag1', '.' ]
+images:
+- 'australia-southeast2-docker.pkg.dev/sit323-23t1-aghilesh-a-6af93e7/quickstart-docker-repo/quickstart-image:tag1'
